@@ -75,8 +75,8 @@ and you can browse the diagram by selecting the file.
 By default, the file lists are sorted in descending order of updated date,
 and you can change the sorting method by pressing the button below.
 
-- <img src='/_media/file_list_viewer/sort_by_name.png' alt='sort by name button' /> sort by name
-- <img src='/_media/file_list_viewer/sort_by_file_type.png' alt='sort by file type button' /> sort by file type
+- ![](_media/file_list_viewer/sort_by_name.png) sort by name
+- ![](_media/file_list_viewer/sort_by_file_type.png) sort by file type
 
 
 ## Others
@@ -88,7 +88,7 @@ You can double-click the file list to open the file.
 
 # Settings
 
-Various settings can be made from the button <img src='/_media/tool_icon.png' alt='tool icon' /> on the Tool window toolbar.
+Various settings can be made from the button ![](_media/tool_icon.png) on the Tool window toolbar.
 
 ## Tool Window
 
