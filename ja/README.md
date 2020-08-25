@@ -66,8 +66,8 @@ markdown表示部分のカスタマイズが可能になったのが、IntelliJ 
 ## Sort
 
 デフォルトでは更新日時が新しい順にソートされていて、下記のボタンを押すことでソート方式を変更できます。
-- ![](/_media/file_list_viewer/sort_by_name.png) 名前順
-- ![](/_media/file_list_viewer/sort_by_file_type.png) 図の種類ごと
+- ![](../_media/file_list_viewer/sort_by_name.png) 名前順
+- ![](../_media/file_list_viewer/sort_by_file_type.png) 図の種類ごと
 
 
 ## Others
