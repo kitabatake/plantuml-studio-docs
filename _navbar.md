@@ -1,0 +1,3 @@
+- [Download from Marketplace](https://plugins.jetbrains.com/plugin/14821-plantuml-studio)
+- [ENGLISH](/)
+- [日本語](/ja/)
