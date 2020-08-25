@@ -1,3 +1,8 @@
+# General Usage
+
+I will prepare this section and some images in a few days.
+
+
 # Support status of PlantUML diagrams
 
 I plan to support all diagrams published in [PlantUML official site](https://plantuml.com/en/).
