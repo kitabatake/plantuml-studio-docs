@@ -34,42 +34,47 @@ PlantUMLは全ての図を同じファイル形式（pumlやplantuml）で表現
 
 この方式によって、既存の運用との整合性が取りづらくなってしまったり、他のツールとの連携が難しくなったりするケースが考えられますが、きちんと構文をサポートすることがこのプラグインの価値の主なところと思いまして、こういった形をとっています。
 
+---
 
-# markdown内の機能について
 
-※ 以後、 `puclass` や `pusequence` などの本プラグイン独自の拡張子を `puclass形式` と表現しています。
+# markdown内の機能
+
+<small>`puclass` や `pusequence` などの本プラグイン独自の拡張子を `puclass形式` と表現しています。</small>
 
 プラグインからのmarkdown表示部分のカスタマイズがIntelliJ IDEのバージョン2020.2から可能になったため、2020.2以前では限定的なサポートとなっています。
 
 ## version 2020.2.3以降の機能
 
-- `puml`, `plantuml`, `puclass形式`のいずれの指定でも図が表示される
-- `puclass形式`の指定でエディター機能が使用できる
+- コードブロックの言語に`puml`, `plantuml`, `puclass形式`のいずれかを指定すると、プレビュー画面に図が描画されます
+- コードブロックの言語に`puclass形式`を指定するとエディター機能が使用できます
 
 標準的な指定である `puml`, `plantuml` ではエディター機能が使えないため、編集する際のみ puclass形式に変更するのがお勧めです。
 
 
 ## version 2020.2.2以前の機能
 
-- `puclass形式`の指定でエディター機能が使用できる
-  - ただし、`puobjec`tや`pucomponent`などのオリジナルの構文を持っていない図は指定できない。（上記の表を参考に、オリジナルの図を指定していただければと思います。）
+- コードブロックの言語に`puclass形式`を指定するとエディター機能が使用できます。
+  ただし、`puobjec`tや`pucomponent`などのオリジナルの構文を持っていない図は指定できません（上記の表を参考に、オリジナルの図を指定していただければと思います）
+
+---
 
 
-
-# file list viewerについて
+# File list viewer
 
 プロジェクト内にあるPlantUML Studio形式のファイルが一覧で表示され、ファイルを選択すると図を閲覧することができます。
 
-## ソート機能
+## Sort
 
 デフォルトでは更新日時が新しい順にソートされていて、下記のボタンを押すことでソート方式を変更できます。
 - <img src='/_media/file_list_viewer/sort_by_name.png' alt='sort by name button' /> 名前順
 - <img src='/_media/file_list_viewer/sort_by_file_type.png' alt='sort by file type button' /> 図の種類ごと
 
 
-## その他
+## Others
 
 ファイルリストをダブルクリックするとそのファイルを開くことができます。
+
+---
 
 
 # 設定
