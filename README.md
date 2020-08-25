@@ -45,13 +45,13 @@ but I think proper syntax support is the value of this plugin.
 ---
 
 
-# Markdown features
+# Markdown code block support
 
-<small>Extensions unique to this plugin, such as `puclass` and `pusequence`, are expressed as `puclass format`.</small>
+The markdown code block supporting before the version 2020.2 of this plugin has limited support because customizing the markdown preview area made possible since the version 2020.2 of the IntelliJ IDE.
 
-It is possible to customize the markdown display area from version 2020.2 of the IntelliJ IDE, so it has limited support before 2020.2.
+<small>※ Extensions unique to this plugin, such as `puclass` and `pusequence`, are expressed as `puclass format`.</small>
 
-## Features after the version 2020.2.3
+## After the version 2020.2.3
 
 - If you specify `puml`, `plantuml`, or `puclass format` for the language of the code block, the diagram will be drawn on the preview screen.
 - You can use the editor feature by specifying `puclass format` for the code block language
@@ -60,7 +60,7 @@ Since the editor function cannot be used with the standard specifications of `pu
 it is recommended to change to the puclass format only when editing.
 
 
-## Features before the version 2020.2.2
+## Before the version 2020.2.2
 
 - You can use the editor function by specifying `puclass format` for the language of the code block.
   However, you cannot specify a diagram that does not have the original syntax such as `puobjec`t or `pucomponent`
@@ -129,7 +129,7 @@ You can specify code to be inserted immediately after `@startuml` when drawing t
 
 For example, you can use it to adjust the style of all diagrams with skinparam.
 
-### Enable the diagram rendering feature in markdown (※ since version 2020.2.3)
+### Enable the diagram rendering feature in markdown <small>(※ since version 2020.2.3)</small>
 
 Whether to draw a diagram on the preview screen when `puml`, `plantuml`, `puclass format` is specified in the code block in markdown.
 
