@@ -107,3 +107,8 @@ PlantUMLは[Graphviz](https://graphviz.org/)のdotコマンドに依存してい
 
 図を描画する際に `@startuml` の直後に入れ込むコードを指定できます。
 skinparamで全ての図のスタイルを調整するなどの用途に利用できます。
+
+### Enable the diagram rendering feature in markdown (※ since version 2020.2.3)
+
+markdown内のコードブロックに `puml`, `plantuml` `puclass形式`を指定した際に、プレビュー画面に図を描画するかの設定です。
+
