@@ -41,7 +41,7 @@ PlantUMLは全ての図を同じファイル形式（pumlやplantuml）で表現
 
 <small>`puclass` や `pusequence` などの本プラグイン独自の拡張子を `puclass形式` と表現しています。</small>
 
-プラグインからのmarkdown表示部分のカスタマイズがIntelliJ IDEのバージョン2020.2から可能になったため、2020.2以前では限定的なサポートとなっています。
+markdown表示部分のカスタマイズが可能になったのが、IntelliJ IDEのバージョン2020.2からですので、2020.2以前では限定的なサポートとなっています。
 
 ## version 2020.2.3以降の機能
 
@@ -115,5 +115,5 @@ skinparamで全ての図のスタイルを調整するなどの用途に利用�
 
 ### Enable the diagram rendering feature in markdown (※ since version 2020.2.3)
 
-markdown内のコードブロックに `puml`, `plantuml` `puclass形式`を指定した際に、プレビュー画面に図を描画するかの設定です。
+markdown内のコードブロックに `puml`, `plantuml`, `puclass形式`を指定した際に、プレビュー画面に図を描画するかの設定です。
 
