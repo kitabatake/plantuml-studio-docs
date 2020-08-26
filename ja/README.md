@@ -43,9 +43,13 @@ PlantUMLは全ての図を同じファイル形式（pumlやplantuml）で表現
 
 # markdown内の機能
 
+![](../_media/markdown.png)
+
+- markdown表示部分のカスタマイズが可能になったのが、IntelliJ IDEのバージョン2020.2からですので、2020.2以前では限定的なサポートとなっています。
+- 自動インデントとReformat codeはmarkdown上では機能しません
+
 <small>`puclass` や `pusequence` などの本プラグイン独自の拡張子を `puclass形式` と表現しています。</small>
 
-markdown表示部分のカスタマイズが可能になったのが、IntelliJ IDEのバージョン2020.2からですので、2020.2以前では限定的なサポートとなっています。
 
 ## version 2020.2.3以降の機能
 

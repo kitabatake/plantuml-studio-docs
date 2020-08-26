@@ -47,7 +47,10 @@ but I think proper syntax support is the value of this plugin.
 
 # Markdown code block support
 
-The markdown code block supporting before the version 2020.2 of this plugin has limited because customizing the markdown preview area by a plugin made possible since the version 2020.2 of the IntelliJ IDE.
+![](./_media/markdown.png)
+
+- The markdown code block supporting before the version 2020.2 of this plugin has limited because customizing the markdown preview area by a plugin made possible since the version 2020.2 of the IntelliJ IDE.
+- Auto indentation and code formatting are not available on markdown
 
 <small>※ Extensions unique to this plugin, such as `puclass` and `pusequence`, are expressed as `puclass format`.</small>
 
