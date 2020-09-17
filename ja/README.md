@@ -1,10 +1,6 @@
-# 使用方法
-
-近日中に記載する予定です。
-
 # PlantUML各図の対応状況
 PlantUMLの公式サイトに掲載されている全ての図を順次対応していく予定です。
-直近では2020/08/20にnetwork図とdeployment図のサポートをリリースしました。
+直近では2020/09/16にtiming図のサポートをリリースしました。
 
 | Diagram type        | Supported | Extension           | Original diagram type |
 | ------------- |:-:|:-------------:| :-----:|
@@ -16,7 +12,7 @@ PlantUMLの公式サイトに掲載されている全ての図を順次対応し
 | [state](https://plantuml.com/en/state-diagram)| o | pustate | - |
 | [object](https://plantuml.com/en/object-diagram)| o | puobject | class |
 | [deployment](https://plantuml.com/en/deployment-diagram)| o | pudeployment | usecase |
-| [timing](https://plantuml.com/en/timing-diagram)| not yet | - | - |
+| [timing](https://plantuml.com/en/timing-diagram)| o | putiming | - |
 | [network](https://plantuml.com/en/nwdiag)| o | punetwork | - |
 | [wireframe](https://plantuml.com/en/salt)| noet yet | - | - |
 | [archmate](https://plantuml.com/en/archimate-diagram)| noet yet | - | - |
