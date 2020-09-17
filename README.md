@@ -1,12 +1,7 @@
-# General Usage
-
-I will prepare this section and some images in a few days.
-
-
 # Support status of PlantUML diagrams
 
 I plan to support all diagrams published in [PlantUML official site](https://plantuml.com/en/).
-Most recently, supports of the deployment diagram, and the network diagram has been released in August 19th, 2020. 
+Most recently, supports of the timing diagram has been released in September 16th, 2020. 
 
 | Diagram type        | Supported | Extension           | Original diagram type |
 | ------------- |:-:|:-------------:| :-----:|
@@ -18,7 +13,7 @@ Most recently, supports of the deployment diagram, and the network diagram has b
 | [state](https://plantuml.com/en/state-diagram)| o | pustate | - |
 | [object](https://plantuml.com/en/object-diagram)| o | puobject | class |
 | [deployment](https://plantuml.com/en/deployment-diagram)| o | pudeployment | usecase |
-| [timing](https://plantuml.com/en/timing-diagram)| not yet | - | - |
+| [timing](https://plantuml.com/en/timing-diagram)| o | putiming | - |
 | [network](https://plantuml.com/en/nwdiag)| o | punetwork | - |
 | [wireframe](https://plantuml.com/en/salt)| noet yet | - | - |
 | [archmate](https://plantuml.com/en/archimate-diagram)| noet yet | - | - |
