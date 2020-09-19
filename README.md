@@ -15,11 +15,11 @@ Most recently, supports of the timing diagram has been released in September 16t
 | [deployment](https://plantuml.com/en/deployment-diagram)| o | pudeployment | usecase |
 | [timing](https://plantuml.com/en/timing-diagram)| o | putiming | - |
 | [network](https://plantuml.com/en/nwdiag)| o | punetwork | - |
-| [wireframe](https://plantuml.com/en/salt)| noet yet | - | - |
-| [archmate](https://plantuml.com/en/archimate-diagram)| noet yet | - | - |
-| [gantt](https://plantuml.com/en/gantt-diagram)| noet yet | - | - |
-| [mindmap](https://plantuml.com/en/mindmap-diagram)| noet yet | - | - |
-| [WBS](https://plantuml.com/en/wbs-diagram)| noet yet | - | - |
+| [wireframe](https://plantuml.com/en/salt)| not yet | - | - |
+| [archmate](https://plantuml.com/en/archimate-diagram)| not yet | - | - |
+| [gantt](https://plantuml.com/en/gantt-diagram)| not yet | - | - |
+| [mindmap](https://plantuml.com/en/mindmap-diagram)| not yet | - | - |
+| [WBS](https://plantuml.com/en/wbs-diagram)| not yet | - | - |
 
 
 ※ The activity diagram supports only [new version](https://plantuml.com/en/activity-diagram-beta).
