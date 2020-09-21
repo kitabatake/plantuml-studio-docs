@@ -1,3 +1,16 @@
+![](../_media/top_image.png)
+
+# General Usage
+
+## To recognize existing PlantUML files
+
+Change the extension from the original `puml` or `pu` to the extension of this plugin(correspondence is in the below table).
+
+## Create new file
+
+Select the format of the file you want to create, either the `PlantUML File` with this plugin icon or the one for each diagram(ex: PlantUML Class).
+
+
 # Support status of PlantUML diagrams
 
 I plan to support all diagrams published in [PlantUML official site](https://plantuml.com/en/).
