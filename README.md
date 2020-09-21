@@ -1,4 +1,4 @@
-![](../_media/top_image.png)
+![](./_media/top_image.png)
 
 # General Usage
 
