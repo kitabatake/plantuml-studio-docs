@@ -55,27 +55,12 @@ but I think proper syntax support is the value of this plugin.
 
 # Markdown code block support
 
-![](./_media/markdown.png)
+You can use the editor feature by specifying the format of this plug-in such as `puclass` for the language of the code block.
 
-- The markdown code block supporting before the version 2020.2 of this plugin has limited because customizing the markdown preview screen by a plugin made possible since the version 2020.2 of the IntelliJ IDE.
-- Auto indentation and code formatting are not available on markdown
+To preview the diagram, specify `puml` as the language of the code block and
+By installing PlantUml from "Languages & Frameworks"> "Markdown"> "Plantuml isn't installed-> install" in Preferences.
 
-<small>※ Extensions unique to this plugin, such as `puclass` and `pusequence`, are expressed as `puclass format`.</small>
-
-## After the version 2020.2.3
-
-- If you specify `puml`, `plantuml`, or `puclass format` for the language of the code block, the diagram will be drawn on the preview screen.
-- You can use the editor feature by specifying `puclass format` for the code block language
-
-Since the editor function cannot be used with the standard specifications of `puml` and `plantuml`,
-it is recommended to change to the puclass format only when editing.
-
-
-## Before the version 2020.2.2
-
-- You can use the editor function by specifying `puclass format` for the language of the code block.
-  However, you cannot specify a diagram that does not have the original syntax such as `puobjec`t or `pucomponent`
-  (I hope you can specify the original diagram by referring to the above table)
+![](./_media/markdown_preference.png)
 
 ---
 

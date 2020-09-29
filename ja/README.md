@@ -55,26 +55,12 @@ PlantUMLは全ての図を同じファイル形式（pumlやplantuml）で表現
 
 # markdown内の機能
 
-![](../_media/markdown.png)
+コードブロックの言語に`puclass`のような本プラグインの形式を指定するとエディター機能が使用できます。
+図を描画させるためには、コードブロックの言語に`puml`を指定し、
+Preferencesの「Languages & Frameworks」>「Markdown」>「Plantuml   isn't installed -> install」の所からPlantUmlをインストールすることで、プレビュー画面に図がレンダリングされるようになります。
 
-- markdown表示部分のカスタマイズが可能になったのが、IntelliJ IDEのバージョン2020.2からですので、2020.2以前では限定的なサポートとなっています。
-- 自動インデントとReformat codeはmarkdown上では機能しません
+![](../_media/markdown_preference.png)
 
-<small>`puclass` や `pusequence` などの本プラグイン独自の拡張子を `puclass形式` と表現しています。</small>
-
-
-## version 2020.2.3以降の機能
-
-- コードブロックの言語に`puml`, `plantuml`, `puclass形式`のいずれかを指定すると、プレビュー画面に図が描画されます
-- コードブロックの言語に`puclass形式`を指定するとエディター機能が使用できます
-
-標準的な指定である `puml`, `plantuml` ではエディター機能が使えないため、編集する際のみ puclass形式に変更するのがお勧めです。
-
-
-## version 2020.2.2以前の機能
-
-- コードブロックの言語に`puclass形式`を指定するとエディター機能が使用できます。
-  ただし、`puobjec`tや`pucomponent`などのオリジナルの構文を持っていない図は指定できません（上記の表を参考に、オリジナルの図を指定していただければと思います）
 
 ---
 
